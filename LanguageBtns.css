@@ -1,0 +1,42 @@
+.button {
+    border: none;
+    color: transparent;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-width: 50px;
+    min-height: 50px;
+    background-color: transparent;
+    transition: border-radius 1s;
+    -webkit-transition: border-radius 1s;
+    transition: all 0.2s ease-in-out;
+    margin-left: 20px;
+    padding-top: -20%;
+}
+
+.LangContainer{
+ text-align: center;
+}
+
+.button:hover {
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 10px 15px rgba(63, 63, 63, 0.4);
+    -webkit-transform: translateY(3px);
+	transform: translateY(3px);
+ }
+
+.ru-btn{
+    background-image: url(./DocAndImg/russia.png)
+}
+
+.il-btn{
+    background-image: url(./DocAndImg/israel.png);
+}
+
+.en-btn{
+    background-image: url(./DocAndImg/united-kingdom.png);
+}

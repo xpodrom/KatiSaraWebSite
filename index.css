@@ -1,0 +1,194 @@
+.menu {
+    margin-bottom: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu_restName {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 0;
+}
+
+.menu_title {
+    text-align: center;
+}
+
+.menu_section {
+    margin-bottom: 30px;
+}
+
+.additionalTermsSection {
+    margin-top: -10px;
+
+}
+
+.menu_item {
+    margin: 0 15px;
+    position: flex;
+}
+
+.menu_item h4 {
+    margin-bottom: 0px;
+}
+
+.price {
+    display: inline-block;
+    float: left;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.name {
+    margin-top: -5px;
+    background-color: transparent;
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    float: right;
+    direction: rtl;
+    font-size: 15px;
+}
+
+.description {
+    margin-top: 5px;
+    background-color: white;
+    display: inline-block;
+    max-width: 50%;
+}
+@media screen and (max-width: 320px) {
+    h3 {
+        text-align: center;
+        font-size: 17px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .name {
+        margin-top: -5px;
+        background-color: transparent;
+        display: flex;
+        font-family: 'Rubik', sans-serif;
+        float: right;
+        direction: rtl;
+        font-size: 12px;
+    }
+    .price {
+        display: inline-block;
+        float: left;
+        position: relative;
+        font-family: 'Rubik', sans-serif;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 375px) {
+    h3 {
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .name {
+        margin-top: -5px;
+        background-color: transparent;
+        display: flex;
+        font-family: 'Rubik', sans-serif;
+        float: right;
+        direction: rtl;
+        font-size: 13px;
+    }
+    .price {
+        display: inline-block;
+        float: left;
+        position: relative;
+        font-family: 'Rubik', sans-serif;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 425px) {
+    h3 {
+        text-align: center;
+        font-size: 19px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .name {
+        margin-top: -5px;
+        background-color: transparent;
+        display: flex;
+        font-family: 'Rubik', sans-serif;
+        float: right;
+        direction: rtl;
+        font-size: 14px;
+    }
+    .price {
+        display: inline-block;
+        float: left;
+        position: relative;
+        font-family: 'Rubik', sans-serif;
+        background-color: transparent;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
+hr {
+    border: none;
+    border-top: 1px dotted gray;
+    position:relative;
+    display: flex;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+    clear: both;
+}
+
+footer:not(.app-footer) {
+    text-align: center;
+    font-size: 11px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.logoContainer{
+    object-position: center;
+    text-align: center;
+    min-width:fit-content;
+    display:block;
+    position:relative;
+    margin-top: auto;
+}
+
+
+.HeadLogoSsection {
+    background-image: url(./DocAndImg/ColorSlapAbove.jpg);
+    border: none;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 250%;
+    position: absolute;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+.AdditionalTerm{
+    display:flex;
+    margin-top: -2%;
+}
+
